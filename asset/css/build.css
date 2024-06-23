@@ -845,8 +845,8 @@ video {
   margin-right: 1rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-2 {
@@ -2311,11 +2311,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -2331,8 +2326,17 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pb-3 {
@@ -2341,10 +2345,6 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pb-40 {
-  padding-bottom: 10rem;
 }
 
 .pl-4 {
@@ -2461,18 +2461,6 @@ video {
   letter-spacing: -0.6px;
 }
 
-.text-h1 {
-  font-size: 60px;
-  line-height: 65px;
-  letter-spacing: -2px;
-}
-
-.text-h2 {
-  font-size: 48px;
-  line-height: 58px;
-  letter-spacing: -1.8px;
-}
-
 .text-h3 {
   font-size: 36px;
   line-height: 48px;
@@ -2483,12 +2471,6 @@ video {
   font-size: 32px;
   line-height: 44px;
   letter-spacing: -1.2px;
-}
-
-.text-h5 {
-  font-size: 24px;
-  line-height: 34px;
-  letter-spacing: -0.5px;
 }
 
 .text-h6 {
@@ -3443,6 +3425,10 @@ video {
     margin-top: 2.75rem;
   }
 
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .md\:mt-30 {
     margin-top: 30px;
   }
@@ -3491,6 +3477,11 @@ video {
     gap: 95px;
   }
 
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -3501,9 +3492,18 @@ video {
     padding-bottom: 6rem;
   }
 
+  .md\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
   .md\:py-36 {
     padding-top: 9rem;
     padding-bottom: 9rem;
+  }
+
+  .md\:pb-40 {
+    padding-bottom: 10rem;
   }
 
   .md\:text-left {
@@ -3526,6 +3526,18 @@ video {
     font-size: 48px;
     line-height: 58px;
     letter-spacing: -1.8px;
+  }
+
+  .md\:text-h5 {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+  }
+
+  .md\:text-h6 {
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
   }
 }
 
