@@ -4,13 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brainwave</title>
+    <link rel="stylesheet" href="./asset/css/flickity.css" media="screen" />
     <link rel="stylesheet" href="./asset/css/style.css" />
+
+    <meta name="title" content="Brainwave" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+
+    <link rel="canonical" href="https://cfdcircle.vn" />
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- Meta Tag Facebook -->
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Brainwave" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Brainwave" />
+    <meta property="og:image" content="" />
+
+    <!-- Meta Tag Twitter -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="Brainwave" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
   </head>
 
   <body
     class="custom-scrollbar font-gr text-body2 text-blue16 subpixel-antialiased md:text-body1"
   >
     <!-- Header Start -->
+    <!-- them fixed cho header -->
     <header
       class="header fixed left-0 top-0 z-50 h-[60px] w-full bg-white transition-transform duration-300 sm:h-[82px]"
     >
@@ -25,7 +50,7 @@
             <ul class="flex gap-30 border-r pr-[30px]">
               <li>
                 <a
-                  href="#"
+                  href="cart.html"
                   class="relative py-2 font-gb text-label transition-all duration-300 after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:scale-x-0 after:bg-purple47 after:transition-transform after:duration-300 hover:text-purple47 hover:after:scale-x-100 hover:after:transition-transform"
                   >Demos</a
                 >
@@ -70,216 +95,141 @@
     </header>
     <!-- Header End -->
 
-    <main class="main bg-whiteF7">
-      <div class="content pb-10 pt-10 sm:pb-24 sm:pt-20">
-        <div class="container text-center">
-          <h1 class="font-gb text-h3 md:text-h1">Your cart</h1>
-          <p class="mt-5">2 Items on your cart</p>
-        </div>
-      </div>
-
-      <section class="carttable pb-20 md:pb-40">
-        <div class="container">
-          <table class="w-full border-separate border-spacing-y-2">
-            <thead class="hidden sm:contents">
-              <tr class="text-left font-gb text-labeltable uppercase">
-                <th class="w-[475px] pb-4">Product</th>
-                <th class="pb-4">Price</th>
-                <th class="pb-4">Quantity</th>
-                <th class="pb-4">Total</th>
-              </tr>
-            </thead>
-            <tbody class="font-gb">
-              <tr
-                class="mb-4 w-full border-b bg-white p-4 *:flex *:items-center *:justify-center sm:*:table-cell"
-              >
-                <td
-                  class="max-w-[475px] rounded-bl-10 rounded-tl-10 py-4 pl-4 sm:pl-30"
-                >
-                  <div class="flex items-center">
-                    <img
-                      src="./asset/imgs/product-1.jpg"
-                      alt="Amazon Echo"
-                      class="mr-4 h-16 w-16 rounded-10 object-cover"
-                    />
-                    <div class="font-gb text-body2">
-                      <a
-                        href="#"
-                        class="capitalize transition-all duration-300 hover:text-purple47"
-                        >Amazon Echo Super Extra Bass Home System</a
-                      >
-                    </div>
-                  </div>
-                </td>
-                <td class="py-4 text-left md:w-[200px]">$70</td>
-                <td class="py-4 md:w-[200px]">
-                  <div class="flex items-center">
-                    <button
-                      class="h-8 w-8 rounded-full bg-whiteF7 transition-all duration-300 hover:bg-purple47 hover:text-white"
-                    >
-                      -
-                    </button>
-                    <input
-                      type="text"
-                      value="2"
-                      class="outline-3 mx-[10px] max-w-[50px] rounded-10 border-2 text-center outline-none"
-                    />
-                    <button
-                      class="h-8 w-8 rounded-full bg-whiteF7 transition-all duration-300 hover:bg-purple47 hover:text-white"
-                    >
-                      +
-                    </button>
-                  </div>
-                </td>
-                <td class="py-4">$140</td>
-                <td class="rounded-br-10 rounded-tr-10 py-4 pr-2">
-                  <div
-                    class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border border-whiteE7 transition-all duration-300 hover:bg-whiteE7"
-                  >
-                    <svg
-                      width="13"
-                      height="13"
-                      viewBox="0 0 13 13"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clip-path="url(#clip0_1_1127)">
-                        <path
-                          d="M1 1L12 12"
-                          stroke="#81838C"
-                          stroke-linecap="round"
-                        />
-                        <path
-                          d="M12 1L1 12"
-                          stroke="#81838C"
-                          stroke-linecap="round"
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_1_1127">
-                          <rect
-                            width="12"
-                            height="12"
-                            fill="white"
-                            transform="translate(0.777344 0.800049)"
-                          />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </div>
-                </td>
-              </tr>
-              <tr
-                class="mb-4 w-full border-b bg-white p-4 *:flex *:items-center *:justify-center sm:*:table-cell"
-              >
-                <td
-                  class="max-w-[475px] rounded-bl-10 rounded-tl-10 py-4 pl-4 sm:pl-30"
-                >
-                  <div class="flex items-center">
-                    <img
-                      src="./asset/imgs/product-2.jpg"
-                      alt="Amazon Echo"
-                      class="mr-4 h-16 w-16 rounded-10 object-cover"
-                    />
-                    <div class="font-gb text-body2">
-                      <a
-                        href="#"
-                        class="capitalize transition-all duration-300 hover:text-purple47"
-                        >Apple AirPods with Wired Charging Case</a
-                      >
-                    </div>
-                  </div>
-                </td>
-                <td class="py-4 text-left md:w-[200px]">$150</td>
-                <td class="py-4 md:w-[200px]">
-                  <div class="flex items-center">
-                    <button
-                      class="h-8 w-8 rounded-full bg-whiteF7 transition-all duration-300 hover:bg-purple47 hover:text-white"
-                    >
-                      -
-                    </button>
-                    <input
-                      type="text"
-                      value="2"
-                      class="outline-3 mx-[10px] max-w-[50px] rounded-10 border-2 text-center outline-none"
-                    />
-                    <button
-                      class="h-8 w-8 rounded-full bg-whiteF7 transition-all duration-300 hover:bg-purple47 hover:text-white"
-                    >
-                      +
-                    </button>
-                  </div>
-                </td>
-                <td class="py-4">$300</td>
-                <td class="rounded-br-10 rounded-tr-10 py-4 pr-2">
-                  <div
-                    class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border border-whiteE7 transition-all duration-300 hover:bg-whiteE7"
-                  >
-                    <svg
-                      width="13"
-                      height="13"
-                      viewBox="0 0 13 13"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clip-path="url(#clip0_1_1127)">
-                        <path
-                          d="M1 1L12 12"
-                          stroke="#81838C"
-                          stroke-linecap="round"
-                        />
-                        <path
-                          d="M12 1L1 12"
-                          stroke="#81838C"
-                          stroke-linecap="round"
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_1_1127">
-                          <rect
-                            width="12"
-                            height="12"
-                            fill="white"
-                            transform="translate(0.777344 0.800049)"
-                          />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="mt-3 justify-between sm:mt-[45px] sm:flex">
-            <a
-              href="#"
-              class="continue mb-4 inline-block h-max w-full rounded-8 bg-white px-5 py-3 text-center font-gb text-body2 transition-all duration-300 hover:bg-purple47 hover:text-white sm:mb-0 sm:w-max"
-              >Continue Shopping</a
+    <main class="main">
+      <section class="py-20 pt-28">
+        <div class="container grid grid-cols-1 gap-[50px] md:grid-cols-2">
+          <div class="slider w-full">
+            <div
+              class="img-main relative aspect-[495/542] overflow-hidden rounded-10 border"
             >
-            <div class="tab rounded-10 bg-white p-6 sm:min-w-[366px]">
-              <span class="mb-10 font-gb text-labeltable uppercase"
-                >Order Details</span
-              >
-              <div class="mb-3 flex w-full justify-between">
-                <span class="text-body2 capitalize">02 items</span>
-                <span class="font-gb">$440</span>
+              <img
+                src="./asset/imgs/product-1.jpg"
+                alt="img-product"
+                class="img-caroucel absolute h-full w-full object-cover"
+              />
+              <img
+                src="./asset/imgs/product-2.jpg"
+                alt="img-product"
+                class="img-caroucel absolute h-full w-full object-cover"
+              />
+              <img
+                src="./asset/imgs/product-3.jpg"
+                alt="img-product"
+                class="img-caroucel absolute h-full w-full object-cover"
+              />
+              <img
+                src="./asset/imgs/product-4.jpg"
+                alt="img-product"
+                class="img-caroucel absolute h-full w-full object-cover"
+              />
+              <img
+                src="./asset/imgs/product-3.jpg"
+                alt="img-product"
+                class="img-caroucel absolute h-full w-full object-cover"
+              />
+              <img
+                src="./asset/imgs/product-1.jpg"
+                alt="img-product"
+                class="img-caroucel absolute h-full w-full object-cover"
+              />
+              <img
+                src="./asset/imgs/product-2.jpg"
+                alt="img-product"
+                class="img-caroucel absolute h-full w-full object-cover"
+              />
+            </div>
+            <div class="img-nav mx-auto mt-4 hidden h-[70px] w-4/5 xs:block">
+              <img
+                src="./asset/imgs/product-1.jpg"
+                alt="img-product-nav"
+                class="img-caroucel-nav mr-[10px] h-[70px] w-[70px] rounded-[5px]"
+              />
+              <img
+                src="./asset/imgs/product-2.jpg"
+                alt="img-product-nav"
+                class="img-caroucel-nav mr-[10px] h-[70px] w-[70px] rounded-[5px]"
+              />
+              <img
+                src="./asset/imgs/product-3.jpg"
+                alt="img-product-nav"
+                class="img-caroucel-nav mr-[10px] h-[70px] w-[70px] rounded-[5px]"
+              />
+              <img
+                src="./asset/imgs/product-4.jpg"
+                alt="img-product-nav"
+                class="img-caroucel-nav mr-[10px] h-[70px] w-[70px] rounded-[5px]"
+              />
+              <img
+                src="./asset/imgs/product-3.jpg"
+                alt="img-product-nav"
+                class="img-caroucel-nav mr-[10px] h-[70px] w-[70px] rounded-[5px]"
+              />
+              <img
+                src="./asset/imgs/product-1.jpg"
+                alt="img-product-nav"
+                class="img-caroucel-nav mr-[10px] h-[70px] w-[70px] rounded-[5px]"
+              />
+              <img
+                src="./asset/imgs/product-2.jpg"
+                alt="img-product-nav"
+                class="img-caroucel-nav mr-[10px] h-[70px] w-[70px] rounded-[5px]"
+              />
+            </div>
+          </div>
+          <div class="info w-full">
+            <div>
+              <img src="./asset/imgs/star.svg" alt="icon-star" />
+              <h2 class="py-3 font-gb text-h5 md:text-h3">
+                Apple AirPods with Wired Charging Case
+              </h2>
+              <p class="text-body2">
+                by <span class="capitalize text-purple47">Apple</span>
+              </p>
+            </div>
+            <div class="price mt-4">
+              <p class="text-label capitalize text-[#7D818D] md:text-body2">
+                List Price: <span>$90</span>
+              </p>
+              <p class="font-gb text-h6 capitalize text-[#7D818D] md:text-h4">
+                Price: <span class="text-blue16">$70</span>
+              </p>
+            </div>
+            <ul class="mb-7 mt-4 list-disc pl-5 text-label">
+              <li>Active noise cancellation for immersive sound</li>
+              <li>Transparency mode for hearing and connecting</li>
+              <li>Three sizes of soft, tapered silicone tips</li>
+              <li>Sweat and water resistant</li>
+            </ul>
+            <div class="quty mb-5 flex gap-[10px]">
+              <span class="text-body2 text-[#7D818D]">Quantity:</span>
+              <div class="flex items-center font-gb">
+                <button
+                  class="h-8 w-8 rounded-full bg-whiteF7 transition-all duration-300 hover:bg-purple47 hover:text-white"
+                >
+                  -
+                </button>
+                <input
+                  type="text"
+                  value="2"
+                  class="outline-3 mx-[10px] max-w-[50px] rounded-8 border-2 px-4 text-center outline-none"
+                />
+                <button
+                  class="h-8 w-8 rounded-full bg-whiteF7 transition-all duration-300 hover:bg-purple47 hover:text-white"
+                >
+                  +
+                </button>
               </div>
-              <div
-                class="mb-3 flex w-full justify-between border-b border-dashed pb-3"
+            </div>
+            <div class="btns mx-auto gap-2 xs:w-max md:mx-0">
+              <a
+                href="#"
+                class="continue mb-4 inline-block h-max w-full rounded-8 bg-purple47 px-10 py-3 text-center font-gb text-body2 capitalize text-white outline-1 transition-all duration-300 hover:bg-transparent hover:text-purple47 hover:outline sm:mb-0 sm:w-max"
+                >Buy now</a
               >
-                <span class="text-body2 capitalize">Delivery Fee</span>
-                <span class="text-[#2BD67B]">FREE</span>
-              </div>
-              <div
-                class="my-[20px] flex w-full justify-between font-gb text-h6"
-              >
-                <span class="capitalize">Total Price</span>
-                <span>$440</span>
-              </div>
               <button
-                class="w-full rounded-10 bg-purple47 px-6 py-3 font-gb text-button text-white outline outline-1 transition-all duration-300 hover:bg-transparent hover:text-purple47 hover:outline-purple47"
+                class="w-full rounded-8 px-8 py-3 font-gb text-body2 transition-all duration-300 hover:bg-whiteE7 hover:text-purple47 sm:mb-0 sm:w-max"
               >
-                Proceed to checkout
+                Add to cart
               </button>
             </div>
           </div>
@@ -519,5 +469,6 @@
   </body>
 
   <script type="module" src="./asset/js/jquery-3.7.1.min.js"></script>
+  <script type="module" src="./asset/js/flickity.pkgd.min.js"></script>
   <script type="module" src="./asset/js/main.js"></script>
 </html>

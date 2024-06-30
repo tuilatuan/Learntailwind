@@ -47,3 +47,25 @@
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   @apply bg-gray-500; /* Màu của nút kéo khi di chuột qua */
 }
+
+.img-nav .img-caroucel-nav.is-nav-selected {
+  border: 1px solid #473bf0;
+}
+
+.img-nav .flickity-prev-next-button {
+  width: 33px;
+  height: 33px;
+}
+
+.img-nav .flickity-prev-next-button.previous {
+  left: -30px;
+}
+.img-nav .flickity-prev-next-button.previous:hover {
+  background-color: rgba(71, 59, 240, 0.6);
+}
+.img-nav .flickity-prev-next-button.next {
+  right: -30px;
+}
+.img-nav .flickity-prev-next-button.next:hover {
+  background-color: rgba(71, 59, 240, 0.6);
+}
