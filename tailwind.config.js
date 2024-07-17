@@ -105,6 +105,9 @@ module.exports = {
         gb: ["gb", "sans-serif"],
         gr: ["gr", "sans-serif"],
         gm: ["gm", "sans-serif"],
+        ib: ["ib", "sans-serif"],
+        ir: ["ir", "sans-serif"],
+        im: ["im", "sans-serif"],
       },
       lineHeight: {
         26: "26px",
@@ -123,6 +126,7 @@ module.exports = {
       borderRadius: {
         8: "8px",
         10: "10px",
+        34: "34px",
       },
       keyframes: {
         right: {

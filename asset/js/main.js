@@ -24,27 +24,7 @@ jQuery(document).ready(function ($) {
       prevNextButtons: pagebtn,
     });
   }
-  // if ($(".img-nav2")) {
-  //   var pagebtn = false;
 
-  //   $(".img-caroucel-nav").length >= 7 ? (pagebtn = true) : (pagebtn = false);
-
-  //   $(".img-nav2").flickity({
-  //     asNavFor: ".img-main2",
-  //     contain: true,
-  //     pageDots: false,
-  //     watchCSS: true,
-  //     prevNextButtons: pagebtn,
-  //   });
-  // }
-  // $(".img-main2").flickity({
-  //   // options
-  //   cellAlign: "left",
-  //   contain: true,
-  //   imagesLoaded: true,
-  //   prevNextButtons: false,
-  //   pageDots: false,
-  // });
 });
 
 function headerScroll() {
@@ -101,4 +81,3 @@ function headerScroll() {
     }
   }
 }
-console.log($(".img-caroucel-nav").length);
